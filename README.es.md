@@ -28,7 +28,7 @@ Como un SIEM, Wazuh recopila y analiza datos de diversas fuentes, como servidore
 - [ ] **Fuente 1: Agentes de Wazuh (Endpoints)**
 Si ya tienes agentes de Wazuh instalados en tus endpoints [como en el ejercicio EDR](#), esos datos son una de las fuentes. Asegúrate de que los agentes estén activos y enviando datos al Wazuh Manager, sino lo tienes haz la instalación de los agentes en la `maquina debian con wordpress`.
 
-- **Fuente 2: Logs de Aplicaciones**
+- [ ] **Fuente 2: Logs de Aplicaciones**
 Configura los agentes de Wazuh para monitorear logs de aplicaciones específicas en los endpoints. Por ejemplo, puedes configurar un agente para recopilar logs de un servidor web o de un servidor de base de datos. Edita el archivo de configuración del agente en cada endpoint para incluir la ubicación de los logs.
 
 Ejemplo, para monitorear los Logs del Servidor Web. En el archivo de configuración del agente (/var/ossec/etc/ossec.conf), agrega la configuración para monitorealos.
@@ -54,7 +54,7 @@ define( 'WP_DEBUG_DISPLAY', false );
 
 > 💡 Esto generará un archivo de log en /wp-content/debug.log donde se registrarán todos los errores y advertencias de PHP relacionados con WordPress.
 
-- **Fuente 3: Logs de Firewalls o Routers**
+- [ ] **Fuente 3: Logs de Firewalls o Routers**
 Si tienes acceso a un firewall o router, asegúrate de que los logs relevantes se envíen a Wazuh a través de agentes. Por lo general, esto se puede hacer instalando un agente de Wazuh en la máquina que maneja los logs del firewall o configurando el dispositivo para que envíe logs a través de syslog a una máquina que tenga un agente de Wazuh instalado.
 
 > 💡 **NOTA:** Nosotros practicaremos con la fuente 1 y 2.
