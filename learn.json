@@ -1,0 +1,33 @@
+{
+    "language": "bash",
+    "title": {
+        "us": "Configure and use Wazuh as a SIEM",
+        "es": "Configurar y usar Wazuh como SIEM"
+    },
+    "slug": "configure-and-use-wazuh-as-a-siem",
+    "description": {
+        "us": "Learn how to install Wazuh on a virtual machine, configure Linux endpoints, collect and analyze logs from multiple sources, and simulate attacks to monitor with Wazuh's SIEM (Security Information and Event Management) capabilities.",
+        "es": "Aprende cómo instalar Wazuh en una máquina virtual, configurar endpoints Linux, recopilar y analizar logs de múltiples fuentes, y simular ataques para monitorear con las capacidades SIEM (Security Information and Event Management) de Wazuh."
+    },
+    "repository": "https://github.com/breatheco-de/wazuh-configuration-as-siem",
+    "duration": 4,
+    "difficulty": "intermediate",
+    "projectType": "tutorial",
+    "bugsLink": "https://github.com/breatheco-de/issues/new",
+    "skills": [
+        "cybersecurity",
+        "wazuh",
+        "linux",
+        "siem",
+        "log-management",
+        "multi-source-monitoring",
+        "threat-detection"
+    ],
+    "graded": true,
+    "editor": {
+        "version": "3.1.23"
+    },
+    "telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+    }
+}

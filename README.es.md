@@ -17,11 +17,11 @@
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
-A través de este ejercicio recolectaremos y analizaremos eventos de seguridad desde un endpoint Linux (La maquina debian con wordpress, por ejemplo), monitoreando accesos, cambios en archivos y simulando posibles ataques. Utilizaremos las capacidades de Wazuh como SIEM para gestionar estos eventos.
+A través de este ejercicio recolectaremos y analizaremos eventos de seguridad desde un endpoint Linux (maquina debian con wordpress), monitoreando accesos, cambios en archivos y simulando posibles ataques. Utilizaremos las capacidades de Wazuh como SIEM para gestionar estos eventos.
 
 ## 📝 Instrucciones
 
-<!-- Ejercicio Práctico: Usar Wazuh como SIEM -->
+
 ### Agregar Múltiples Fuentes de Datos a Wazuh
 Como un SIEM, Wazuh recopila y analiza datos de diversas fuentes, como servidores, aplicaciones, firewalls, routers, y más. El primer paso es asegurarse de que Wazuh esté configurado para recibir logs de estas diversas fuentes.
 
@@ -57,7 +57,7 @@ define( 'WP_DEBUG_DISPLAY', false );
 - [ ] **Fuente 3: Logs de Firewalls o Routers**
 Si tienes acceso a un firewall o router, asegúrate de que los logs relevantes se envíen a Wazuh a través de agentes. Por lo general, esto se puede hacer instalando un agente de Wazuh en la máquina que maneja los logs del firewall o configurando el dispositivo para que envíe logs a través de syslog a una máquina que tenga un agente de Wazuh instalado.
 
-> 💡 **NOTA:** Nosotros practicaremos con la fuente 1 y 2.
+> **NOTA:** Nosotros practicaremos con la fuente 1 y 2.
 
 
 ### Simulación de Ataques Multi-Fuente
@@ -65,13 +65,14 @@ Ahora vamos a simular un ataque distribuido en diferentes sistemas.
 
 1. Intenta iniciar sesión con credenciales incorrectas en el endpoint (maquina debian) varias veces.
 
-2. Simula los Logs de Apache de acceso y errores. Genera actividad accediendo al sitio web de WordPress e intenta acceder a una página inexistente para generar un error 404 y verificar que se registra en el log de Apache.
-
-3. Modifica archivos sensibles en el endpoint para que Wazuh detecte el cambio.
+2. Modifica archivos sensibles en el endpoint para que Wazuh detecte el cambio.
 
 ```bash
 sudo echo "Simulación de cambio malicioso" >> /etc/passwd
 ```
+
+3. Simula los Logs de Apache de acceso y errores. Genera actividad accediendo al sitio web de WordPress e intenta acceder a una página inexistente para generar un error 404 y verificar que se registra en el log de Apache.
+
 
 ### Monitorea en el Dashboard
 
