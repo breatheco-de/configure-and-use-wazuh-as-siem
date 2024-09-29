@@ -1,11 +1,11 @@
 # Configure and use Wazuh as a SIEM
 
-> By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/wazuh-configuration-as-edr/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+> By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*These instructions are also [available in Spanish](https://github.com/breatheco-de/wazuh-configuration-as-edr/blob/main/README.es.md)*
+*These instructions are also [available in Spanish](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/README.es.md)*
 <!-- endhide -->
 
 ### Before you start...
@@ -75,6 +75,10 @@ sudo echo "Simulating malicious change" >> /etc/passwd
 ### Monitor in the Dashboard
 
 1. Go to the dashboard and observe the events in `Threat Hunting`. Look for event correlation involving failed access attempts, port scans from another machine, and file modifications on the endpoints. Wazuh should generate alerts as it correlates events from these multiple sources.
+
+The results obtained should be something similar to this, where you will be able to see all the simulations performed. Example: `T1078`, which refers to the misuse of credentials, `T1548.003`, which indicates a successful sudo to ROOT, and multiple Apache 400 errors, which may result from failed attempts to access web server resources.
+
+![imagen 1](assets/wazuh-siem-results.png)
 
 2. Go to the Reports section in Wazuh and generate a report that shows all recent events and alerts. Filter the events by type and source to see the correlations and anomalies detected.
 

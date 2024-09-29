@@ -1,12 +1,12 @@
 # Configurar y usar wazuh como SIEM
 <!-- hide -->
 
-> By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/wazuh-configuration-as-edr/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+> By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*Estas instrucciones estan [disponibles en español](https://github.com/breatheco-de/wazuh-configuration-as-edr/blob/main/README.es.md)*
+*Estas instrucciones estan [disponibles en español](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/README.es.md)*
 <!-- endhide -->
 
 ### Antes de empezar...
@@ -78,9 +78,15 @@ sudo echo "Simulación de cambio malicioso" >> /etc/passwd
 
 1. Ve al dashboard y observa los eventos en `Threat Hunting`. Busca la correlación de eventos que involucren los intentos de acceso fallido, los escaneos de puertos desde otra máquina y las modificaciones de archivos en los endpoints. Wazuh debería generar alertas a medida que correlaciona los eventos de estas múltiples fuentes.
 
+Los resultados obtenidos deben ser algo similar esto, alli vas a poder ver todas las simulaciones realizadas. Ejmplo: T1078 que seria el uso indebido de credenciales, T1548.003, que indica un sudo exitoso a ROOT y múltiples errores 400 de Apache, lo cual pueden ser resultado de intentos fallidos de acceder a recursos del servidor web.
+
+![imagen 1](assets/wazuh-siem-results.png)
+
 2. Ve a la sección de Reports de Wazuh y genera un informe que muestre todos los eventos y alertas recientes. Filtra los eventos por tipo y fuente para ver las correlaciones y anomalías detectadas.
 
 > ⚠ Si los eventos no aparecen de inmediato, revisa la configuración de recolección de logs en los agentes y asegúrate de que todas las fuentes (como los logs de aplicaciones y dispositivos) estén correctamente conectadas y enviando datos al Wazuh Manager.
+
+
 
 
 ## Colaboradores
