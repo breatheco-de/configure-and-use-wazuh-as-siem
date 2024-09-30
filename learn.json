@@ -12,22 +12,13 @@
     "repository": "https://github.com/breatheco-de/wazuh-configuration-as-siem",
     "duration": 4,
     "difficulty": "intermediate",
-    "projectType": "tutorial",
+    "preview": "https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/assets/preview.jpg?raw=true",
     "bugsLink": "https://github.com/breatheco-de/issues/new",
-    "skills": [
+    "technologies": [
         "cybersecurity",
         "wazuh",
         "linux",
         "siem",
-        "log-management",
-        "multi-source-monitoring",
-        "threat-detection"
-    ],
-    "graded": true,
-    "editor": {
-        "version": "3.1.23"
-    },
-    "telemetry": {
-        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-    }
+        "pentesting"
+    ]
 }
