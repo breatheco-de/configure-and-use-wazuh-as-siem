@@ -17,7 +17,7 @@
 
 Through this exercise, we will collect and analyze security events from a Linux endpoint [a Debian machine with WordPress](https://4geeks.com/interactive-coding-tutorial/deploying-wordpress-site-debian), monitoring access, file changes, and simulating potential attacks. We will use Wazuh's capabilities as a SIEM to manage these events.
 
-> ⚠ In case you don't have the **Debian machine with WordPress** available, you can download this [image .ova](#) with a configured Debian machine with WordPress.
+> ⚠ In case you don't have the **Debian machine with WordPress** available, you can download this [image .ova](https://storage.googleapis.com/breathecode/virtualbox/debian-with-wordpress.ova) with a configured Debian machine with WordPress.
 
 ```bash
 username: debian
