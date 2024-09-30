@@ -21,6 +21,11 @@ A través de este ejercicio recolectaremos y analizaremos eventos de seguridad d
 
 > ⚠ En caso de que no tengas dispobible puedes la **maquina debian con wordpress**, puedes descargar esta [imagen .ova](#) con una maquina debian configurada con wordpress.
 
+```bash
+username: debian
+password: 123456
+```
+
 ## 📝 Instrucciones
 
 

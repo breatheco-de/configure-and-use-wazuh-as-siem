@@ -19,6 +19,11 @@ Through this exercise, we will collect and analyze security events from a Linux 
 
 > ⚠ In case you don't have the **Debian machine with WordPress** available, you can download this [image .ova](#) with a configured Debian machine with WordPress.
 
+```bash
+username: debian
+password: 123456
+```
+
 
 ## 📝 Instructions
 
