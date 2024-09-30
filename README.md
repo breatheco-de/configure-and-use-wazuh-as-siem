@@ -15,7 +15,7 @@
 ## 🌱 How to Start This Project
 
 
-Through this exercise, we will collect and analyze security events from a Linux endpoint (a Debian machine with WordPress), monitoring access, file changes, and simulating potential attacks. We will use Wazuh's capabilities as a SIEM to manage these events.
+Through this exercise, we will collect and analyze security events from a Linux endpoint [a Debian machine with WordPress](https://4geeks.com/interactive-coding-tutorial/deploying-wordpress-site-debian), monitoring access, file changes, and simulating potential attacks. We will use Wazuh's capabilities as a SIEM to manage these events.
 
 
 ## 📝 Instructions
