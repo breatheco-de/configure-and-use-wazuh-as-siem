@@ -1,3 +1,4 @@
+<!-- hide -->
 # Configure and use Wazuh as a SIEM
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
@@ -6,14 +7,15 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *These instructions are also [available in Spanish](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/README.es.md)*
-<!-- endhide -->
 
 ### Before you start...
 
 > We need you! These exercises are created and maintained in collaboration with people like you. If you find any errors or typos, please contribute and/or report them.
+<!-- endhide -->
+
+<!-- howtostart -->
 
 ## 🌱 How to Start This Project
-
 
 Through this exercise, we will collect and analyze security events from a Linux endpoint [a Debian machine with WordPress](https://4geeks.com/interactive-coding-tutorial/deploying-wordpress-site-debian), monitoring access, file changes, and simulating potential attacks. We will use Wazuh's capabilities as a SIEM to manage these events.
 
@@ -24,6 +26,7 @@ username: debian
 password: 123456
 ```
 
+<!-- endhowtostart -->
 
 ## 📝 Instructions
 

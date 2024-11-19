@@ -1,5 +1,5 @@
-# Configurar y usar wazuh como SIEM
 <!-- hide -->
+# Configurar y usar wazuh como SIEM
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
@@ -7,13 +7,13 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *Estas instrucciones estan [disponibles en español](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/README.es.md)*
-<!-- endhide -->
 
 ### Antes de empezar...
 
 > ¡Te necesitamos! Estos ejercicios se crean y mantienen en colaboración con personas como tú. Si encuentras algún error o falta de ortografía, contribuye y/o repórtalo.
-
 <!-- endhide -->
+
+<!-- howtostart -->
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
@@ -25,6 +25,8 @@ A través de este ejercicio recolectaremos y analizaremos eventos de seguridad d
 username: debian
 password: 123456
 ```
+
+<!-- endhowtostart -->
 
 ## 📝 Instrucciones
 
