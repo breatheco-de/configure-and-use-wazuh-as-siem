@@ -13,7 +13,7 @@
 > ¡Te necesitamos! Estos ejercicios se crean y mantienen en colaboración con personas como tú. Si encuentras algún error o falta de ortografía, contribuye y/o repórtalo.
 <!-- endhide -->
 
-<!-- howtostart -->
+<onlyfor saas="true" withBanner="true">
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
@@ -26,7 +26,7 @@ username: debian
 password: 123456
 ```
 
-<!-- endhowtostart -->
+</onlyfor>
 
 ## 📝 Instrucciones
 
