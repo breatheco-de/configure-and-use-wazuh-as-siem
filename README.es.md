@@ -95,9 +95,7 @@ Los resultados obtenidos deben ser algo similar esto, alli vas a poder ver todas
 
 > ⚠ Si los eventos no aparecen de inmediato, revisa la configuración de recolección de logs en los agentes y asegúrate de que todas las fuentes (como los logs de aplicaciones y dispositivos) estén correctamente conectadas y enviando datos al Wazuh Manager.
 
-
-
-
+<!-- hide -->
 ## Colaboradores
 
 Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
