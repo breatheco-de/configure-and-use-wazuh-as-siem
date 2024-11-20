@@ -13,7 +13,7 @@
 > We need you! These exercises are created and maintained in collaboration with people like you. If you find any errors or typos, please contribute and/or report them.
 <!-- endhide -->
 
-<!-- howtostart -->
+<onlyfor saas="true" withBanner="true">
 
 ## 🌱 How to Start This Project
 
@@ -26,7 +26,7 @@ username: debian
 password: 123456
 ```
 
-<!-- endhowtostart -->
+</onlyfor>
 
 ## 📝 Instructions
 
@@ -94,7 +94,7 @@ The results obtained should be something similar to this, where you will be able
 
 > ⚠ If the events do not appear immediately, review the log collection configuration on the agents and ensure that all sources (such as application and device logs) are properly connected and sending data to the Wazuh Manager.
 
-
+<!-- hide -->
 ## Contributors
 
 Thanks to these amazing people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
