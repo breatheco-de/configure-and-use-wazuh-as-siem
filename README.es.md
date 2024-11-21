@@ -86,7 +86,7 @@ sudo echo "Simulación de cambio malicioso" >> /etc/passwd
 
 Los resultados obtenidos deben ser algo similar esto, alli vas a poder ver todas las simulaciones realizadas. Ejmplo: T1078 que seria el uso indebido de credenciales, T1548.003, que indica un sudo exitoso a ROOT y múltiples errores 400 de Apache, lo cual pueden ser resultado de intentos fallidos de acceder a recursos del servidor web.
 
-![imagen 1](assets/wazuh-siem-results.png)
+![imagen 1](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/assets/wazuh-siem-results.png?raw=true)
 
 2. Ve a la sección de Reports de Wazuh y genera un informe que muestre todos los eventos y alertas recientes. Filtra los eventos por tipo y fuente para ver las correlaciones y anomalías detectadas.
 
