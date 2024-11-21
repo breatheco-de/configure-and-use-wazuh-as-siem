@@ -7,7 +7,6 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *Estas instrucciones estan [disponibles en español](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/README.es.md)*
-<!-- endhide -->
 
 ### Antes de empezar...
 
@@ -94,7 +93,7 @@ Los resultados obtenidos deben ser algo similar esto, alli vas a poder ver todas
 > ⚠ Si los eventos no aparecen de inmediato, revisa la configuración de recolección de logs en los agentes y asegúrate de que todas las fuentes (como los logs de aplicaciones y dispositivos) estén correctamente conectadas y enviando datos al Wazuh Manager.
 
 
-
+<!-- hide -->
 
 ## Colaboradores
 
