@@ -7,6 +7,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *These instructions are also [available in Spanish](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/README.es.md)*
+
 <!-- endhide -->
 
 ### Before you start...
@@ -93,6 +94,7 @@ The results obtained should be something similar to this, where you will be able
 > ⚠ If the events do not appear immediately, review the log collection configuration on the agents and ensure that all sources (such as application and device logs) are properly connected and sending data to the Wazuh Manager.
 
 <!-- hide -->
+
 ## Contributors
 
 Thanks to these amazing people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
