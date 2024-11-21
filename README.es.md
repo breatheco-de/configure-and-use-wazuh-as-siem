@@ -1,5 +1,5 @@
-# Configurar y usar wazuh como SIEM
 <!-- hide -->
+# Configurar y usar wazuh como SIEM
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
