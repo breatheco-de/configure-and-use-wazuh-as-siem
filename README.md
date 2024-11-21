@@ -1,3 +1,4 @@
+<!-- hide -->
 # Configure and use Wazuh as a SIEM
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
@@ -91,7 +92,7 @@ The results obtained should be something similar to this, where you will be able
 
 > ⚠ If the events do not appear immediately, review the log collection configuration on the agents and ensure that all sources (such as application and device logs) are properly connected and sending data to the Wazuh Manager.
 
-
+<!-- hide -->
 ## Contributors
 
 Thanks to these amazing people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
