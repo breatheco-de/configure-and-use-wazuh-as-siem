@@ -19,5 +19,8 @@
         "linux",
         "siem",
         "pentesting"
-    ]
+    ],
+    "delivery": {
+		"formats": ["no_delivery"]
+	}
 }
