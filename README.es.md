@@ -11,8 +11,9 @@
 ### Antes de empezar...
 
 > ¡Te necesitamos! Estos ejercicios se crean y mantienen en colaboración con personas como tú. Si encuentras algún error o falta de ortografía, contribuye y/o repórtalo.
-
 <!-- endhide -->
+
+<onlyfor saas="false" withBanner="false">
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
@@ -24,6 +25,8 @@ A través de este ejercicio recolectaremos y analizaremos eventos de seguridad d
 username: debian
 password: 123456
 ```
+
+</onlyfor>
 
 ## 📝 Instrucciones
 
@@ -91,7 +94,6 @@ Los resultados obtenidos deben ser algo similar esto, alli vas a poder ver todas
 2. Ve a la sección de Reports de Wazuh y genera un informe que muestre todos los eventos y alertas recientes. Filtra los eventos por tipo y fuente para ver las correlaciones y anomalías detectadas.
 
 > ⚠ Si los eventos no aparecen de inmediato, revisa la configuración de recolección de logs en los agentes y asegúrate de que todas las fuentes (como los logs de aplicaciones y dispositivos) estén correctamente conectadas y enviando datos al Wazuh Manager.
-
 
 <!-- hide -->
 
