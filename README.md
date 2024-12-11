@@ -88,13 +88,14 @@ sudo echo "Simulating malicious change" >> /etc/passwd
 
 The results obtained should be something similar to this, where you will be able to see all the simulations performed. Example: `T1078`, which refers to the misuse of credentials, `T1548.003`, which indicates a successful sudo to ROOT, and multiple Apache 400 errors, which may result from failed attempts to access web server resources.
 
-![imagen 1](assets/wazuh-siem-results.png)
+![imagen 1](https://github.com/breatheco-de/configure-and-use-wazuh-as-siem/blob/main/assets/wazuh-siem-results.png?raw=true)
 
 2. Go to the Reports section in Wazuh and generate a report that shows all recent events and alerts. Filter the events by type and source to see the correlations and anomalies detected.
 
 > ⚠ If the events do not appear immediately, review the log collection configuration on the agents and ensure that all sources (such as application and device logs) are properly connected and sending data to the Wazuh Manager.
 
 <!-- hide -->
+
 ## Contributors
 
 Thanks to these amazing people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
